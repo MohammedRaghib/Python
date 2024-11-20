@@ -84,5 +84,6 @@ def game(scoreboard):
         print(f'Comp score: {scoreboard['compscore']}')
     else:
         print('Not a valid input')
+        game(scoreboard)
 # Intializes game
 game(scoreboard)
