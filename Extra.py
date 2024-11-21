@@ -1,7 +1,7 @@
 # Extra
 def mockery():
 
-    sentence = input('Type something: ')
+    sentence = input('Type something (to exit type exit): ')
 
     if sentence == 'exit':
         print('Goodbye!')
