@@ -97,3 +97,16 @@ if o_li_anag1 is o_li_anag2:
     print('They are anagrams!')
 else:
     print('They are not anagrams!')
+
+# Assignment 7:
+
+# pip install OpenPyxsl
+# import OpenPyxsl
+# from OpenPyxsl import Workbook, load_workbook
+# book = load_workbook('file.xlsx')
+# (current opening sheet):
+# sheet = book.active
+# updating:
+# sheet['A2'].value = 'Solara'
+# saving:
+# book.save('file.xlsx')
