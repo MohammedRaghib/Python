@@ -1,5 +1,5 @@
 # write program to join dictionary ✔
-# write RegEx to check for kenyan phone number ✔
+# RegEx to check for kenyan phone number ✔
 # RegEx to extract URLS ✔
 # RegEx to extract dates ✔
 
