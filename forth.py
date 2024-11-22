@@ -5,15 +5,6 @@
 
 # Assignment 1
 
-dict_1 = {
-    'name':'clark',
-    'age': 23
-}
-dict_2 = {
-    'name':'kent',
-    'age': 26
-}
-
 from collections import ChainMap
 
 dict_1 = {
