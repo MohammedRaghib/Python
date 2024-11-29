@@ -24,7 +24,7 @@ print(merged)
 
 import re
 
-phone_num_val = r'^2547\d{8}$|^2541\d{8}$|^07\d{8}$|^01\d{8}$'
+phone_num_val = r'^07\d{8}$|^01\d{8}$|^\+?254[71]\d{8}|^\+?254[- ]?[71]\d{1}[- ]?\d{3}[- ]?\d{3}'
 
 num = str(input('Number: '))
 
@@ -43,10 +43,6 @@ match_url = re.search(url_val, link)
 print(bool(match_url))
 
 # Assignment 3:
-
-month = int() <= 12
-date = int() <= 31
-year = int() >= 1000
 
 date_val = r'^(\d{2})[-/]\d{2}[-/]\d{4}$'
 

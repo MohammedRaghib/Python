@@ -65,6 +65,5 @@ print(department)
 set_1 = {1,2,3,4}
 set_2 = {4,3,5,6}
 
-ms = set_1.union(set_2)
-
+ms = set_1 & set_2
 print(ms)
